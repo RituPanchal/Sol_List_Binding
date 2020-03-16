@@ -1,0 +1,222 @@
+.headerOne{
+    background-image: url("../Lib/images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.courseComponent{
+    background-color: #EDF0F3;
+}
+
+.courseComponent > .container{
+    width: 100%;
+}
+
+.navigation > .nav-item > .nav-link{
+    color:#000 !important;
+}
+
+.active{
+    border-bottom: 4px solid #00AEEF;
+}
+
+.nav-item{
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.courseColumn{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#courseListUl{
+    background-color:white;
+} 
+
+.navigationColumn{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navigationColumn > .navbar{
+    padding: 0;
+}
+
+.verticalNav{
+    background-color: white !important;
+}
+
+.verticalNav li{
+    border-bottom: 1px solid #ebebeb !important;
+    padding: 3px !important;
+    height: auto !important;
+    margin-bottom: 0 !important;
+}
+
+.verticalNav li:last-child{
+    border-top: 2px solid #00AEEF;
+}
+
+.verticalNav li:last-child a{
+    color: #00AEEF ;
+}
+
+.verticalNav a{
+    padding: 2px 15px !important;
+    font-size: 14px;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.cardContainer{
+    background-color: white;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+#cardImgFrame{
+    padding: 1rem;
+}
+
+.card{
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0;
+}
+
+#cardTitle{
+    font-family: "Roboto-Medium";
+    font-size: 24px;
+}
+
+#cardDesc{
+    font-family: "Roboto-Regular";
+    font-size: 18px;
+}
+
+#cardPrice{
+    font-family: "Roboto-Regular";
+    font-size: 14px;
+}
+
+#noMoreDataMessage{
+    font-size: 12px;
+}
+
+.page-footer{
+    height: auto !important;
+}
+
+.footer{
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.navigation{
+    flex-direction: row !important;
+}
+
+.footerL{
+    float: left;
+}
+
+.footerR{
+    float: right;
+}
+
+/* font-family and font-size */
+.roboto-medium{
+    font-family: "Roboto-Medium";
+}
+
+.roboto-bold{
+    font-family: "Roboto-Bold";
+}
+
+.roboto-regular{
+    font-family: "Roboto-Regular";
+}
+
+.f48{
+    font-size: 48px;
+}
+
+.f24{
+    font-size: 24px;
+}
+
+.f15{
+    font-size: 15px;
+}
+
+.f18{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+        display: block;
+        margin: auto;
+    }
+   #cardFrame{
+        padding: 1rem !important;
+   }
+   .navigation{
+        margin-left: 10px;
+        margin-right: 10px;
+   }
+   .navTab{
+       font-size: 14px !important;
+   }
+   .heading{
+       font-size: 36px;
+   }
+   .subHeading{
+       font-size: 18px;
+   }
+   .verticalNav a{
+        padding: 2px 20px !important;
+   }
+   .footerL{
+        float: none;
+        text-align: center !important;
+        padding-bottom: 0.75rem;
+   }
+   .footerR{
+        float: none;
+        text-align: center !important;
+        padding-bottom: 0.75rem;
+   }
+}
+
+/* font-face */
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../Lib/fonts/roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../Lib/fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../Lib/fonts/roboto/Roboto-Bold.ttf");
+}
+
+

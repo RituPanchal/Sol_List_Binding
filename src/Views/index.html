@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <img src="../Lib/images/logo.png" alt="Logo" style="width:auto" class="p-1">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar"></div>
+    </nav>
+
+    <div class="container-fluid headerOne img-responsive text-white p-3 p-md-5">
+      <div class="mx-auto content pl-0 col-12 p-0 col-md-10">
+        <div class="container justify-text">
+          <h1 class="heading f48 roboto-bold col-md-12 p-0">
+            Vestibulum pulvinar nisi orci vel
+          </h1>
+          <div class="subHeading f24 roboto-medium col-12 p-0 col-md-8">
+            Nam velit libero, ornare ac neque vitae, elementum lobortis justo.
+            Vestibulum non finibus dolor.
+          </div>
+          <button type="button" class="roboto-medium f15 btn btn-primary btn-sm mt-3 mt-md-3 mb-3">Call to
+            action</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="courseComponent">
+      <div class="container-fluid bg-white">
+        <nav class="navbar navbar-expand-sm bg-white navbar-light navBar mb-3 p-0">
+          <div class="container">
+            <ul class="navbar-nav navigation col-md-10 pr-0">
+              <li class="nav-item mr-3" onclick="appGlobal.onAllCoursesClickEvent()">
+                <a id="allCourseNavTab" class="nav-link navTab roboto-medium f18">All Courses</a>
+                <div class="underline"></div>
+              </li>
+              <li class="nav-item mr-3" onclick="appGlobal.onTaxClickEvent()">
+                <a id="onTaxNavTab" class="nav-link navTab roboto-medium f18">Tax</a>
+              </li>
+              <li class="nav-item mr-3" onclick="appGlobal.onCommClickEvent()">
+                <a id="onCommNavTab" class="nav-link navTab roboto-medium f18">Communication</a>
+              </li>
+              <li class="nav-item" onclick="appGlobal.onTechClickEvent()">
+                <a id="onTechNavTab" class="nav-link navTab roboto-medium f18">Technology</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container mx-auto">
+
+        <div class="row mx-auto w-100 py-0 p-0">
+          <div class="col-md-8 courseColumn">
+
+            <div class="cardContainer w-100">
+              <div id="cardOutput" class="row no-gutters p-0 p-md-2">
+
+
+              </div>
+              <div class="loadMore text-center p-3">
+                <button id="btnLoad" type="button" class="roboto-medium f14 btn btn-outline-primary"
+                  onclick="appGlobal.onLoadButtonClickEvent()">Load more</button>
+                <div id="noMoreDataMessage" class="pt-3"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-4 col-12 pl-md-2 p-0 navigationColumn">
+            <nav class="navbar verticalNav col-md-8 col-12 p-0">
+              <!-- Links -->
+              <ul class="navbar-nav w-100 roboto-regular f18">
+                <li class="nav-item">
+                  <a class="nav-link">Navigation link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Navigation link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Navigation link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Navigation link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Navigation link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Navigation link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Special link</a>
+                </li>
+              </ul>
+
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer mt-4 mt-md-0 bg-dark text-white">
+      <div class="footer col-12 pt-4 pb-3">
+        <div class="footerL roboto-regular f14">Produced by company name</div>
+        <div class="footerR roboto-regular f14">Terms&nbsp;|&nbsp;FAQ&nbsp;|&nbsp;Privacy Policy</div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+<script src="../../dist/build.js"></script>
+
+</html>
